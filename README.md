@@ -1,5 +1,5 @@
 # AVUI
-Project base Vue.js 2.x, AdminLTE, Bootstrap 3.x
+Project based on Vue.js 2.x, AdminLTE, Bootstrap 3.x
 
 <p align="center">
   <a href="https://saucelabs.com/u/vuejs"><img src="https://saucelabs.com/browser-matrix/vuejs.svg" alt="Sauce Test Status"></a>
