@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="wrapper">
+  <div class="wrapper">
 
     <!-- Main Header -->
     <main-header></main-header>
@@ -8,11 +8,11 @@
     <main-sidebar></main-sidebar>
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper"></div>
-    <!--<transition name="fade" mode="out-in">-->
-      <!--<router-view class="content-wrapper"></router-view>-->
-    <!--</transition>-->
-    <!-- /.content-wrapper -->
+    <!--<div class="content-wrapper"></div>-->
+    <transition name="fade" mode="out-in">
+      <router-view class="content-wrapper"></router-view>
+    </transition>
+     <!--/.content-wrapper -->
 
     <!-- Main Footer -->
     <main-footer></main-footer>
