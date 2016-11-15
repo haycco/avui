@@ -21,14 +21,6 @@
 
 <script>
   export default {
-    name: 'index-view',
-    beforeMount(){
-
-    }
+    name: 'index-view'
   }
 </script>
-
-
-<style>
-
-</style>
