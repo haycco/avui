@@ -60,7 +60,7 @@ Depending on the component you are working on you should have the following link
 - Vue.js - [API](https://vuejs.org/v2/api/)
 - Vuex - [Github](https://github.com/vuejs/vuex)
 - Vue-Router - [Github](https://github.com/vuejs/vue-router)
-- Vue-Resource - [Github](https://github.com/vuejs/vue-resource)
+- Axios - [Github](https://github.com/mzabriskie/axios)
 
 Information and tips about AVUI can be found in the [wiki](https://github.com/haycco/avui/wiki).
 
