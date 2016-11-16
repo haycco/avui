@@ -57,7 +57,3 @@
     name: 'main-sidebar'
   }
 </script>
-
-<style>
-
-</style>

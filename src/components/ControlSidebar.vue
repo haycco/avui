@@ -78,7 +78,3 @@
     name: 'control-sidebar'
   }
 </script>
-
-<style>
-
-</style>
