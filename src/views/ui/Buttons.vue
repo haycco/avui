@@ -1,12 +1,12 @@
 <template>
   <section class="content">
     <!-- Your Page Content Here -->
-    Index Page
+    Buttons Page
   </section>
 </template>
 
 <script>
   export default {
-    name: 'index-view'
+    name: 'buttons-view'
   }
 </script>

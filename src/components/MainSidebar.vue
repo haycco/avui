@@ -32,8 +32,8 @@
       <ul class="sidebar-menu">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><router-link to="/"><i class="fa fa-link"></i> <span>Link</span></router-link></li>
+        <li><router-link to="/buttons"><i class="fa fa-link"></i> <span>Another Link</span></router-link></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
