@@ -6,6 +6,7 @@ Vue.use(Router)
 import Login from '../views/Login.vue'
 import Dashboard from '../views/Dashboard.vue'
 import IndexView from '../views/IndexView.vue'
+import Widgets from '../views/Widgets.vue'
 import Buttons from '../views/ui/Buttons.vue'
 import General from '../views/ui/General.vue'
 import Icons from '../views/ui/Icons.vue'
@@ -20,6 +21,7 @@ routes: [
   { path: '/login', component: Login },
   { path: '/', component: Dashboard, children: [
                                             { path: '', component: IndexView, name: 'IndexView', description: 'Index starter' },
+                                            { path: '/widgets', component: Widgets, name: 'Widgets', description: 'Widgets' },
                                             { path: '/buttons', component: Buttons, name: 'Buttons', description: 'UI Elements Buttons' },
                                             { path: '/general', component: General, name: 'General', description: 'UI Elements General' },
                                             { path: '/icons', component: Icons, name: 'Icons', description: 'UI Elements Icons' },

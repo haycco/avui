@@ -34,6 +34,14 @@
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><router-link to="/"><i class="fa fa-link"></i> <span>Link</span></router-link></li>
         <li><router-link to="/"><i class="fa fa-link"></i> <span>Another Link</span></router-link></li>
+        <li>
+          <router-link to="/widgets">
+            <i class="fa fa-th"></i> <span>Widgets</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </router-link>
+        </li>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
