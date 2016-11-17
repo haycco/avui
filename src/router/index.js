@@ -22,12 +22,12 @@ routes: [
   { path: '/', component: Dashboard, children: [
                                             { path: '', component: IndexView, name: 'IndexView', description: 'Index starter' },
                                             { path: '/widgets', component: Widgets, name: 'Widgets', description: 'Widgets' },
-                                            { path: '/buttons', component: Buttons, name: 'Buttons', description: 'UI Elements Buttons' },
-                                            { path: '/general', component: General, name: 'General', description: 'UI Elements General' },
-                                            { path: '/icons', component: Icons, name: 'Icons', description: 'UI Elements Icons' },
-                                            { path: '/modals', component: Modals, name: 'Modals', description: 'UI Elements Modals' },
-                                            { path: '/sliders', component: Sliders, name: 'Sliders', description: 'UI Elements Sliders' },
-                                            { path: '/timeline', component: Timeline, name: 'Timeline', description: 'UI Elements Timeline' }
+                                            { path: '/ui/buttons', component: Buttons, name: 'Buttons', description: 'UI Elements Buttons' },
+                                            { path: '/ui/general', component: General, name: 'General', description: 'UI Elements General' },
+                                            { path: '/ui/icons', component: Icons, name: 'Icons', description: 'UI Elements Icons' },
+                                            { path: '/ui/modals', component: Modals, name: 'Modals', description: 'UI Elements Modals' },
+                                            { path: '/ui/sliders', component: Sliders, name: 'Sliders', description: 'UI Elements Sliders' },
+                                            { path: '/ui/timeline', component: Timeline, name: 'Timeline', description: 'UI Elements Timeline' }
                                             ] }
   ]
 });

@@ -111,7 +111,9 @@
         prettify: false,
         hasGrid: true
       });
-      $("#range_2").ionRangeSlider();
+      $("#range_2").ionRangeSlider({
+        type: 'double'
+      });
 
       $("#range_5").ionRangeSlider({
         min: 0,

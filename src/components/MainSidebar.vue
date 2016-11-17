@@ -51,12 +51,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><router-link to="/general"><i class="fa fa-circle-o"></i> General</router-link></li>
-            <li><router-link to="/icons"><i class="fa fa-circle-o"></i> Icons</router-link></li>
-            <li><router-link to="/buttons"><i class="fa fa-circle-o"></i> Buttons</router-link></li>
-            <li><router-link to="/sliders"><i class="fa fa-circle-o"></i> Sliders</router-link></li>
-            <li><router-link to="/timeline"><i class="fa fa-circle-o"></i> Timeline</router-link></li>
-            <li><router-link to="/modals"><i class="fa fa-circle-o"></i> Modals</router-link></li>
+            <li><router-link to="/ui/general"><i class="fa fa-circle-o"></i> General</router-link></li>
+            <li><router-link to="/ui/icons"><i class="fa fa-circle-o"></i> Icons</router-link></li>
+            <li><router-link to="/ui/buttons"><i class="fa fa-circle-o"></i> Buttons</router-link></li>
+            <li><router-link to="/ui/sliders"><i class="fa fa-circle-o"></i> Sliders</router-link></li>
+            <li><router-link to="/ui/timeline"><i class="fa fa-circle-o"></i> Timeline</router-link></li>
+            <li><router-link to="/ui/modals"><i class="fa fa-circle-o"></i> Modals</router-link></li>
           </ul>
         </li>
       </ul>
