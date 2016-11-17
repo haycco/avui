@@ -33,16 +33,22 @@
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><router-link to="/"><i class="fa fa-link"></i> <span>Link</span></router-link></li>
-        <li><router-link to="/buttons"><i class="fa fa-link"></i> <span>Another Link</span></router-link></li>
+        <li><router-link to="/"><i class="fa fa-link"></i> <span>Another Link</span></router-link></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>UI Elements</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><router-link to="/general"><i class="fa fa-circle-o"></i> General</router-link></li>
+            <li><router-link to="/icons"><i class="fa fa-circle-o"></i> Icons</router-link></li>
+            <li><router-link to="/buttons"><i class="fa fa-circle-o"></i> Buttons</router-link></li>
+            <li><router-link to="/sliders"><i class="fa fa-circle-o"></i> Sliders</router-link></li>
+            <li><router-link to="/timeline"><i class="fa fa-circle-o"></i> Timeline</router-link></li>
+            <li><router-link to="/modals"><i class="fa fa-circle-o"></i> Modals</router-link></li>
           </ul>
         </li>
       </ul>
