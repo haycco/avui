@@ -32,16 +32,16 @@
       <ul class="sidebar-menu">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><router-link to="/"><i class="fa fa-link"></i> <span>Link</span></router-link></li>
-        <li><router-link to="/"><i class="fa fa-link"></i> <span>Another Link</span></router-link></li>
-        <li>
-          <router-link to="/widgets">
+        <router-link tag="li" to="/" class="active"><a><i class="fa fa-link"></i> <span>Link</span></a></router-link>
+        <router-link tag="li" to="/"><a><i class="fa fa-link"></i> <span>Another Link</span></a></router-link>
+        <router-link tag="li" to="/widgets">
+          <a>
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
-          </router-link>
-        </li>
+          </a>
+        </router-link>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
@@ -51,12 +51,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><router-link to="/ui/general"><i class="fa fa-circle-o"></i> General</router-link></li>
-            <li><router-link to="/ui/icons"><i class="fa fa-circle-o"></i> Icons</router-link></li>
-            <li><router-link to="/ui/buttons"><i class="fa fa-circle-o"></i> Buttons</router-link></li>
-            <li><router-link to="/ui/sliders"><i class="fa fa-circle-o"></i> Sliders</router-link></li>
-            <li><router-link to="/ui/timeline"><i class="fa fa-circle-o"></i> Timeline</router-link></li>
-            <li><router-link to="/ui/modals"><i class="fa fa-circle-o"></i> Modals</router-link></li>
+            <router-link tag="li" to="/ui/general"><a><i class="fa fa-circle-o"></i> General</a></router-link>
+            <router-link tag="li" to="/ui/icons"><a><i class="fa fa-circle-o"></i> Icons</a></router-link>
+            <router-link tag="li" to="/ui/buttons"><a><i class="fa fa-circle-o"></i> Buttons</a></router-link>
+            <router-link tag="li" to="/ui/sliders"><a><i class="fa fa-circle-o"></i> Sliders</a></router-link>
+            <router-link tag="li" to="/ui/timeline"><a><i class="fa fa-circle-o"></i> Timeline</a></router-link>
+            <router-link tag="li" to="/ui/modals"><a><i class="fa fa-circle-o"></i> Modals</a></router-link>
           </ul>
         </li>
       </ul>

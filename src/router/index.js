@@ -16,19 +16,20 @@ import Timeline from '../views/ui/Timeline.vue'
 
 const router = new Router({
   mode: 'history',
-scrollBehavior: () => ({ y: 0 }),
-routes: [
-  { path: '/login', component: Login },
-  { path: '/', component: Dashboard, children: [
-                                            { path: '', component: IndexView, name: 'IndexView', description: 'Index starter' },
-                                            { path: '/widgets', component: Widgets, name: 'Widgets', description: 'Widgets' },
-                                            { path: '/ui/buttons', component: Buttons, name: 'Buttons', description: 'UI Elements Buttons' },
-                                            { path: '/ui/general', component: General, name: 'General', description: 'UI Elements General' },
-                                            { path: '/ui/icons', component: Icons, name: 'Icons', description: 'UI Elements Icons' },
-                                            { path: '/ui/modals', component: Modals, name: 'Modals', description: 'UI Elements Modals' },
-                                            { path: '/ui/sliders', component: Sliders, name: 'Sliders', description: 'UI Elements Sliders' },
-                                            { path: '/ui/timeline', component: Timeline, name: 'Timeline', description: 'UI Elements Timeline' }
-                                            ] }
+  scrollBehavior: () => ({ y: 0 }),
+  linkActiveClass: 'active',
+  routes: [
+    { path: '/login', component: Login },
+    { path: '/', component: Dashboard, children: [
+                                              { path: '', component: IndexView, name: 'IndexView', description: 'Index starter' },
+                                              { path: '/widgets', component: Widgets, name: 'Widgets', description: 'Widgets' },
+                                              { path: '/ui/buttons', component: Buttons, name: 'Buttons', description: 'UI Elements Buttons' },
+                                              { path: '/ui/general', component: General, name: 'General', description: 'UI Elements General' },
+                                              { path: '/ui/icons', component: Icons, name: 'Icons', description: 'UI Elements Icons' },
+                                              { path: '/ui/modals', component: Modals, name: 'Modals', description: 'UI Elements Modals' },
+                                              { path: '/ui/sliders', component: Sliders, name: 'Sliders', description: 'UI Elements Sliders' },
+                                              { path: '/ui/timeline', component: Timeline, name: 'Timeline', description: 'UI Elements Timeline' }
+                                              ] }
   ]
 });
 
