@@ -15,7 +15,8 @@
     "vuex-router-sync": "^3.0.0",
     "axios": "^0.15.2",
     "es6-promise": "^3.2.1",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "jquery": "2.2.3"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
