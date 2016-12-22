@@ -1,3 +1,4 @@
+require('babel-polyfill')
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
@@ -12,7 +13,7 @@ var useCssSourceMap = cssSourceMapDev || cssSourceMapProd
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: ['babel-polyfill', './src/main.js']
   },
   output: {
     path: config.build.assetsRoot,
